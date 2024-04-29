@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import logo from '../../assets/logo.svg'
+import ConnectWithMe from '../ConnectWithMe/ConnectWithMe.jsx'
 
 const NavBar = () => {
   return (
@@ -13,9 +14,7 @@ const NavBar = () => {
             <li>Photography</li>
             <li>Contact</li>
         </ul>
-        <div className="nav-connect">
-            Connect with me
-        </div>
+        <ConnectWithMe/>
     </div>
   )
 }
