@@ -33,16 +33,20 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(267deg, #DA7B93  0%, #1C3334 102%);
+    background: linear-gradient(267deg, #2E151B  0%, #1C3334 102%);
     opacity: 0; /* Start fully transparent */
     transition: opacity 0.5s ease; /* Smooth transition for opacity */
     z-index: -1; /* Behind the text */
 }
 
 .nav-connect:hover::after {
+    color: #376E6F;
     opacity: 1;
 }
 
 .nav-connect:hover {
+    transition: 0.5s;
     transform: scale(1.05);
+    color: #DA7B93;
+
 }
