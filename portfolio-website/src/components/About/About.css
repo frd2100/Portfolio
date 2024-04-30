@@ -82,3 +82,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.about-achievment p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.about-achievment:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+}

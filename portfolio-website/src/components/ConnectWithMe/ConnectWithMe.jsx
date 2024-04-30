@@ -3,7 +3,7 @@ import './ConnectWithMe.css'
 
 function ConnectWithMe() {
   return (
-    <div className="nav-connect">ConnectWithMe</div>
+    <div className="nav-connect">Connect With Me</div>
   )
 }
 
