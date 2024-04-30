@@ -7,7 +7,7 @@
     cursor: pointer;
     overflow: hidden; /* Ensures that pseudo-element does not extend outside */
     transition: transform 0.5s ease; /* Transition for transform */
-    color: white; /* Ensures text color is visible */
+    color: #D8D8D8; /* Ensures text color is visible */
     z-index: 0; /* Base layer z-index */
 }
 
