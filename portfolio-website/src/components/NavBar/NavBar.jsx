@@ -14,7 +14,7 @@ const NavBar = () => {
             <li>Photography</li>
             <li>Contact</li>
         </ul>
-        <ConnectWithMe/>
+        <ConnectWithMe label='Connect with Me'/>
     </div>
   )
 }

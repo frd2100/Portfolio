@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
+import ConnectWithMe from '../ConnectWithMe/ConnectWithMe.jsx'
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
-import location_icon from "../../assets/call_icon.svg";
+import location_icon from "../../assets/location_icon.svg";
 
 function Contact() {
   return (
@@ -40,7 +41,7 @@ function Contact() {
             rows="8"
             placeholer="Enter your Message"
           ></textarea>
-          <button className="contact-submit">Submit</button>
+            <ConnectWithMe label='Submit'/>
         </div>
       </div>
     </div>

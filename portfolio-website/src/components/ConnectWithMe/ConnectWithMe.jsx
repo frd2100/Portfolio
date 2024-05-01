@@ -1,9 +1,9 @@
 import React from 'react'
 import './ConnectWithMe.css'
 
-function ConnectWithMe() {
+function ConnectWithMe(props) {
   return (
-    <div className="nav-connect">Connect With Me</div>
+    <div className="nav-connect">{props.label}</div>
   )
 }
 

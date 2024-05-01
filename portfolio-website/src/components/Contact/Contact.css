@@ -32,7 +32,7 @@
 .contact-left h1{
     font-size: 80px;
     font-weight: 700;
-    background: linear-gradient(267deg,  #376E6F 80%,  #DA7B93 100%);
+    background: linear-gradient(267deg,  #376E6F 60%,  #DA7B93 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -71,21 +71,28 @@
     width: 700px;
     height: 78px;
     padding-left: 20px;
-    border-radius: 4px;
-    background: #32323c;
-    color: #A0A0A0;
+    border-radius: 60px;
+    background: #2E151B;
+    color: #D8D8D8;
     font-family: Outfit;
     font-size: 20px;
 }
+.contact-right input:focus {
+    outline: 2px solid #376E6F;
+}
+
 .contact-right textarea{
     border: none;
     width: 650px;
     padding: 25px;
-    border-radius: 4px;
-    background: #32323c;
-    color: #A0A0A0;
+    border-radius: 60px;
+    background: #2E151B;
+    color: #D8D8D8;
     font-family: Outfit;
     font-size: 20px;
+}
+.contact-right textarea:focus{
+    outline: 2px solid #376E6F;
 }
 .contact-submit{
     border: none;
