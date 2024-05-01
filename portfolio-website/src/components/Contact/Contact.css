@@ -80,7 +80,9 @@
 .contact-right input:focus {
     outline: 2px solid #376E6F;
 }
-
+.contact-right input:placeholder{
+  color: #D8D8D8;
+}
 .contact-right textarea{
     border: none;
     width: 650px;

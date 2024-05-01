@@ -8,7 +8,7 @@ import location_icon from "../../assets/location_icon.svg";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div id='contact' className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
         <img src={theme_pattern} alt="" />
@@ -32,14 +32,14 @@ function Contact() {
         </div>
         <div className="contact-right">
           <label htmlFor="">Your Name</label>
-          <input type="text" placeholer="Enter your Name" name="name" />
+          <input type="text" placeholder="Enter your Name" name="name" />
           <label htmlFor="">Your Email</label>
-          <input type="text" placeholer="Enter your Email" name="email" />
+          <input type="text" placeholder="Enter your Email" name="email" />
           <label htmlFor="">Write your message here</label>
           <textarea
             name="message"
             rows="8"
-            placeholer="Enter your Message"
+            placeholder="Enter your Message"
           ></textarea>
             <ConnectWithMe label='Submit'/>
         </div>
