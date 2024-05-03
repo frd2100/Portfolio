@@ -4,7 +4,12 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
-
+.navbar h1{
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+}
 .nav-menu {
     display: flex;
     align-items: center;
